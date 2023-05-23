@@ -1,19 +1,21 @@
-*{
-    
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight:600;
-    text-align: center;
+
+h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 1000;
+  font-size: xx-large;
+
+
 
 }
-h2{
- font-style: normal;
-forn    
+
+nav {
+  font-size: 100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+
+
 }
-nav{
-    font-size: 100%;
-   
-    
-}
+
 .navbar-nav {
   display: flex;
   justify-content: space-between;
@@ -21,36 +23,31 @@ nav{
 }
 
 .nav-menu li {
-  margin-right: 20px; 
+  margin-right: 20px;
 }
 
+#divider {
+  border-bottom: 4px solid #000000;
+  opacity: 75%;
+  margin: 50px;
+  width: auto;
+  align-items: center;
+}
 
-
-
-table {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  th{
-    font-size: 150%;
-  }
-  td{
-    
-    font-size: 150%;
-  }
- #about{
+#about {
   text-align: center;
-  
- } 
- footer{
-  background-color: green;
+}
 
-} 
- .container {
-  max-width: 960px; 
+footer {
+  background-color: #213D39;
+
+}
+
+.container {
+  max-width: 960px;
   margin: 0 auto;
 }
+
 .table-bookings {
   position: relative;
   display: flex;
@@ -64,31 +61,72 @@ table {
   border: 4px solid #ffffff;
   border-radius: 20px 20px 20px 20px;
   color: #ffffff;
-  font-size: 20px; 
-  padding: 8px 8px; 
+  font-size: 20px;
+  padding: 8px 8px;
 
 }
-.center-button a:visited {
-  color: #ffffff; 
-}
-img-custom-size{
-  width: auto;
-  height: 80px;
-}
-hr{
-  border: ;
-  height: 2px;
-  background-color: black;
-  
-}
-hr {
-  color: black;
-}
+
+
+
 .carousel-button {
-  Color: white;
+  Color: rgb(255, 255, 255);
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  opacity: 60%;
+  width: 16%;
+  
+  
+
+}
+
+.pfont {
+  width: 90%;
+  padding: 5% 0% 40% 9%;
+  align-items: center;
+
+}
+
+
+.head-first {
+  padding-bottom: 4%;
+  font-weight: 800;
+  text-align: center;
+}
+
+.head-second {
+  padding-bottom: 4%;
+  font-weight: 800;
+  text-align: center;
+}
+
+.footer-nav-item {
+  font-weight: 100;
+}
+.copyright{
+  font-weight: 100;
+  font-size: small;
+  padding-top: 5%;
+  
+}
+h5{
+  font-weight: 800;
+}
+
+.button-subscribe{
+  align-items: center;
+  width: 100%;
+}
+.footer-nav-item{
+font-family: ;
+}
+
+.social-media
+{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #ffffff;
+  font-style: normal;
+  text-decoration-line: none;
+  
+
 }
