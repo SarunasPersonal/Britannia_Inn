@@ -6,76 +6,185 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 
-    
+
 
     <title>The Britannia Inn | Homepage</title>
     <!--The title of The homepage-->
 </head>
 
 <body>
+    <div class="container-xl">
+
+   
     <!--Nav bar placed in header. The nav bar has links to other pages on the site, -->
-    
-    
-        <header id="home">
-        
-            <header>
-                
-                <nav>
-                    <element class="navbar">
-                        <div class="navbar">
-                            <element id="logo">
-                                <img src="images/logo.png" alt="Britannia Inn Logo">    
-                            </element>
-                        <a href="./index.html">Home</a></li>
-                        <a href="./menu.html">Menu</a></li>
-                        <a href="./bookings.html">Bookings</a></li>
-                        <a href="./events.html">Events</a></li>
-                        <a href="./about.html">About</a></li>
-                        <a href="./contacts.html">Contacts</a></li>
-                        </div>
-                    </element>
-                </nav>
-                
-            </header>
-        
-        
-        
-            <element class="main">
-            <div>
-            <h2>Book accommodation</h2>
-            <h2>Book a table</h2>
-            <img width="900px" src="images/pub_interior.jpg" alt="rustic and modern pub">
-        
-            <h2>What's on?</h2>
-            <img width="350px" src="images/bowling.jpg" alt="bowling lane">
-            <img width="350px" src="images/concert.jpg" alt="Someone holding hand in the air during the concert">
-            <img width="350px" src="images/mic_concert.jpg" alt="singer is singing">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #fff;">
+        <div class="container-fluid">
+          
+          <nav class="navbar navbar-light" >
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="./images/logo.png" alt="" width="180" height="auto">
+              </a>
             </div>
-    
-        
-        <div>
-            
-            <h2>About us</h2>
-            <section class="about">
-            <p>The bars with their range of local real ales are comfortable and cosy. The public bar has a rugby theme with signed shirts from the local rugby clubs including Bath and Bristol and pictures of local teams and sporting heroes. There is a function room on the second floor which is very popular for parties, meetings, auctions and private dinner parties. The Britannia has skittle teams playing every evening in the winter months. The alley is suitable for parties wishing to play skittles, a meeting room or just the place for a party. There is also have a large barbeque facility. This can be hired for the evening or we can provide a complete barbeque for your enjoyment.</p>
-            </section>
+          </nav>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./bookings.html">BOOKINGS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./menu.html">MENU</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./events.html">EVENTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contacts.html">CONTACT</a>
+              </li>
+             
+            </ul>
+          </div>
         </div>
-       
-        <div>
-            <footer>
-                <h6>&#169Copyrights reserved to Britannia Inn
-                    2023</h6>
+      </nav>
 
-            </footer>
-        
-        </div>
-        </element>
-        
     
 
 
+
+
+
+      <main>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="position-relative">
+                <img src="./images/room.jpg" class="d-block w-100 img-fluid img-custom-size" alt="old hotel room">
+                <div class="carousel-button">
+                  <a href="bookings.html" class="btn btn-primary btn-light rounded">BOOK A ROOM</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="position-relative">
+                <img src="images/tables.jpg"  class="d-block w-100 img-fluid" alt="old pub interior">
+                <div class="carousel-button">
+                  <a href="bookings.html" class="btn btn-primary btn-light rounded">BOOK A TABLE</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <hr>
+        <div id="divider"></div>
+      </main>
+
+          
+          
+
+    
+
+
+                
+                <img src="images/pub_interior.jpg"  class="d-block w-100 img-fluid" alt="old pub interior">
+                <hr>
+                <h2>What's on?</h2>
+                <div class="events">
+                <img width="300x" src="images/concert.jpg" alt="Someone holding hand in the air during the concert">
+                <img width="300px" src="images/bowling.jpg" alt="bowling lane">
+                <img width="300px" src="images/mic_concert.jpg" alt="singer is singing">
+                </div>
+        
+
+
+        <section id="about">
+            <article>
+                <h2>About us</h2>
+
+                <p>The bars with their range of local real ales are comfortable and cosy. The public bar has a rugby
+                    theme
+                    with signed shirts from the local rugby clubs including Bath and Bristol and pictures of local teams
+                    and
+                    sporting heroes. There is a function room on the second floor which is very popular for parties,
+                    meetings, auctions and private dinner parties. The Britannia has skittle teams playing every evening
+                    in
+                    the winter months. The alley is suitable for parties wishing to play skittles, a meeting room or
+                    just
+                    the place for a party. There is also have a large barbeque facility. This can be hired for the
+                    evening
+                    or we can provide a complete barbeque for your enjoyment.</p>
+            </article>
+        </section>
+    </main>
+
+
+
+    <footer>
+        <table class="footer-table">
+            <thead>
+                <tr>
+                    <th>Food</th>
+                    <th>Bookings</th>
+                    <th>Help</th>
+                    <th>Social Media</th>
+
+                </tr>
+            </thead>
+            <tr>
+                <td>Menu</td>
+                <td>Book a table</td>
+                <td>Accessibility</td>
+                <td>Britannia_Inn</td>
+            </tr>
+            <tr>
+                <td>Allergens & Nutritions</td>
+                <td>Book accommodation</td>
+                <td>Contact us</td>
+                <td>Britannia_Inn</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Offers</td>
+                <td>About us</td>
+                <td></td>
+            </tr>
+        </table>
+        <form id="subscribe">
+        <label for="email"></label>
+            <input type="text" name="email" id="email" value="email@email.com" required></input>
+            <br>
+            <input type="submit" value="Subscribe">
+        </form>
+        <h6>&#169Copyrights reserved to Britannia Inn2023</h6>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </footer>
+
+
+
+
+
+
+    </div>
 </body>
 
 </html>

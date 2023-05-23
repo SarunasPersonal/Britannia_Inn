@@ -5,54 +5,165 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+
+
+
     <title>The Britannia Inn | Homepage</title>
     <!--The title of The homepage-->
 </head>
 
 <body>
     <!--Nav bar placed in header. The nav bar has links to other pages on the site, -->
-    <center>
-        <div>
-            <header>
-                <section></section>
-                <nav>
-                    <ul>
-                        <li><a href="./index.html">Home</a></li>
-                        <li><a href="./menu.html">Menu</a></li>
-                        <li><a href="./bookings.html">Bookings</a></li>
-                        <li><a href="./events.html">Events</a></li>
-                        <li><a href="./about.html">About</a></li>
-                        <li><a href="./contacts.html">Contacts</a></li>
-                    </ul>
-                </nav>
-                <hr>
-            </header>
-        </div>
-        <div>
 
-            <h2>Book accommodation</h2>
-            <h2>Book a table</h2>
-            <img width="900px" src="images/pub_interior.jpg" alt="rustic and modern pub">
-            <hr>
-        </div>
-        <div>
-            <h2>What's on?</h2>
-            <img width="350px" src="images/bowling.jpg" alt="rustic and modern pub">
-            <img width="350px" src="images/concert.jpg" alt="rustic and modern pub">
-            <img width="350px" src="images/mic_concert.jpg" alt="rustic and modern pub">
 
-            <hr>
-        </div>
-        <div>
-        </div>
-        <div>
-            <footer>
-                <h6>&#169Copyrights reserved to Britannia Inn
-                    2023</h6>
 
-            </footer>
-        </div>
-    </center>
+
+
+
+    <nav id="navbar">
+        <header>
+            <img id="logo"><img src="images/logo.png" height="40px" alt="Britannia Inn Logo"></img>
+            <a href="./index.html">Home</a></li>
+            <a href="./menu.html">Menu</a></li>
+            <a href="./bookings.html">Bookings</a></li>
+            <a href="./events.html">Events</a></li>
+            <a href="#about">About</a></li>
+            <a href="./contacts.html">Contacts</a></li>
+            <a href="./test.html">test</a></li>
+            </div>
+        </header>
+    </nav>
+  
+
+    <section id="bookings">
+        <form>
+        <span>Table Room</span>
+        <br>
+        <input type="range" name="booking-options" min="0" max="1" step="1">
+        
+            <br>
+            <label for="date"></label>
+            <input type="text" name="date" value="Date"/>
+            <label for="time"></label>
+            <input type="text" name="time" value="Time"/>
+            <br>
+            <label for="persons">Persons</label>
+    <select name="persons">
+    <option value="small-table">1-2 persons</option>
+    <option value="medium-table">2-4 persons</option>
+    <option value="large-table">4-6 persons</option>
+    <option value="x-large-table">6-10 persons</option>
+  </select>
+  <br>
+  <label for="name"></label>
+  <input type="text" name="name" value="Name"/>
+  <label for="email"></label>
+  <input type="text" name="time" value="Email"/>
+  <br>
+  <label for="phone-number"></label>
+  <input type="text" name="phone-number" value="Phone Number"/>
+  <label for="comments"></label>
+  <br>
+  <input type="text" name="comments" value="Comments (Optional)"/>
+  <br>
+  <input type="submit" value="Book"/>
+  </section>
+</form>
+
+
+  <br>
+
+  
+
+
+        
+
+    </section>
+
+
+
+    <main>
+        <section>
+            <article>
+                <h2>Book accommodation</h2>
+                <h2>Book a table</h2>
+                <img width="900px" src="images/pub_interior.jpg" alt="rustic and modern pub">
+                <h2>What's on?</h2>
+                <img width="350px" src="images/concert.jpg" alt="Someone holding hand in the air during the concert">
+                <img width="350px" src="images/bowling.jpg" alt="bowling lane">
+                <img width="350px" src="images/mic_concert.jpg" alt="singer is singing">
+            </article>
+        </section>
+
+
+        <section id="about">
+            <article>
+                <h2>About us</h2>
+
+                <p>The bars with their range of local real ales are comfortable and cosy. The public bar has a rugby
+                    theme
+                    with signed shirts from the local rugby clubs including Bath and Bristol and pictures of local teams
+                    and
+                    sporting heroes. There is a function room on the second floor which is very popular for parties,
+                    meetings, auctions and private dinner parties. The Britannia has skittle teams playing every evening
+                    in
+                    the winter months. The alley is suitable for parties wishing to play skittles, a meeting room or
+                    just
+                    the place for a party. There is also have a large barbeque facility. This can be hired for the
+                    evening
+                    or we can provide a complete barbeque for your enjoyment.</p>
+            </article>
+        </section>
+    </main>
+
+
+
+    <footer>
+        <table>
+            <thead>
+                <tr>
+                    <th>Food</th>
+                    <th>Bookings</th>
+                    <th>Help</th>
+                    <th>Social Media</th>
+
+                </tr>
+            </thead>
+            <tr>
+                <td>Menu</td>
+                <td>Book a table</td>
+                <td>Accessibility</td>
+                <td>Britannia_Inn</td>
+            </tr>
+            <tr>
+                <td>Allergens & Nutritions</td>
+                <td>Book accommodation</td>
+                <td>Contact us</td>
+                <td>Britannia_Inn</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Offers</td>
+                <td>About us</td>
+                <td></td>
+            </tr>
+        </table>
+        <form>
+        <label for="email"></label>
+            <input type="text" name="email" id="email" value="email@email.com" required></input>
+            <br>
+            <input type="submit" value="Subscribe">
+        </form>
+        <h6>&#169Copyrights reserved to Britannia Inn2023</h6>
+
+    </footer>
+
+
+
+
+
 
 
 </body>
