@@ -1,3 +1,4 @@
+//Java script for google maps
 let map, infoWindow;
 
 function initMap(){
